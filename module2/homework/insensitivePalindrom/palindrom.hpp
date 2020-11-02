@@ -1,4 +1,5 @@
 #pragma once
 #include <iostream>
 
-bool isPalindrome(const std::string word);
+const std::string forbidden_signs = "`,.?()[]`";
+bool is_palindrome(const std::string word);
